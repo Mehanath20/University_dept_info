@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  line-height: 1.6;
+  text-align: center;
+  background-color: grey;
+}
+
+section { padding: 20px; }
+
+.hero { background: #222; color: grey; padding: 40px 20px; }
+.hero-content { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 20px; }
+.hero-content img { max-width: 250px; border-radius: 10px; }
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #4CAF50;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  max-width: 800px;
+  margin: auto;
+}
+.card {
+  border: 1px solid #f0dfdf;
+  padding: 15px;
+  border-radius: 5px;
+  background: #fff;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.card{
+  background-color: #e6f0f3; /* light blue-gray */
+}
+
+
+/* Light blue-gray background for pricing plans */
+.plan {
+  background-color: #e6f0f3; /* light blue-gray */
+}
+
+/* POP on hover for pricing plans */
+.plan:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.cta { background: #d9d2d2; }
+footer { background: #222; color: blue; padding: 10px; }
